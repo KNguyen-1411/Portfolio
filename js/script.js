@@ -58,10 +58,9 @@ function chedo() {
     btn.classList.toggle("fa-moon");
     btn.classList.toggle("fa-sun");
 }
-const abc=document.getElementsByClassName("skill");
-window.addEventListener('scroll',()=>{
-  let height=window.pageYOffset;
-  if(height==700){
-    // console.log("Hello")
-  }
-})
+// const abc=document.getElementsByClassName("skill");
+// window.addEventListener('scroll',()=>{
+  //   let height=window.pageYOffset;
+  //   console.log(height)
+  // })
+  
