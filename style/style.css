@@ -125,7 +125,7 @@
   width: 300px;
 }
 .pfl2,.pfl4,.pfl6{
-  width: 550px;
+  width: auto;
 }
 .pfl1 img{
   width: 180px;
@@ -144,6 +144,11 @@
 .pfl p{
   margin-bottom: 5px;
 }
+.pfl4-about{
+  width: 80%;
+}
+
+
 
 .skill header {
   background-color: rgb(44, 62, 80,0.5);
