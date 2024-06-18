@@ -190,7 +190,7 @@
 }
 .ab-main{
   padding: 50px;
-  width: 900px;
+  /* width: 900px; */
   margin: 0 auto;
   font-size: 24px;
 }
@@ -198,7 +198,7 @@
 
 .ct-main{
   padding: 35px 0 0 0 ;
-  width: 870px;
+  /* width: 870px; */
   margin: 0 auto;
   padding-left: 20px;
 }
