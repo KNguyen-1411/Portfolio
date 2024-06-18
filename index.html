@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/animation.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <section class="container home" id="home">
+        <div class="home-nav">
+            <div class="logo">
+                <h1>KNguyen1411b</h1>
+            </div>
+            <ul class="menu">
+                <i onclick="" class="icon-menu fa-solid fa-bars"></i>
+                <li id="fc"><i id="i1" href="index.html">Home</i></li>
+                <li><i id="btn-Portfolio" href="">Portfolio</i></li>
+                <li><i id="btn-skill" href="">Skill</i></li>
+                <li><i id="btn-about" href="">About</i></li>
+                <li><i id="btn-Contact" href="">Contact</i></li>
+            </ul>
+            <div class="light-dark">
+                <i id="light-dark" onclick="chedo()" class="fa-regular fa-moon"></i>
+            </div>
+        </div>
+        <div class="home-main">
+            <div class="home-main-left">
+                <div class="ten-home">
+                    <h2>Hello, It's me</h2>
+                    <h1>Khánh Nguyên</h1>
+                    <h2 >And, I'm a <span class="sls"></span></h2>
+                </div>
+                <div class="about-home">
+                    <p>Life is like riding a bicycle. To keep your balance, you must keep moving</p>
+                </div>
+                <div class="icon-home"> 
+                    <a href="https://www.facebook.com/knguyen1411b/" class="fa-brands fa-facebook"></a>
+                    <a href="https://www.instagram.com/knguyen1411b/" class="fa-brands fa-instagram"></a>
+                    <a href="https://www.youtube.com/channel/UCPgZkTNud0JIs8UiW3Pwz2Q" class="fa-brands fa-youtube"></a>
+                    <a href="nguyendinhkhanhnguyen1@gmail.com" class="fa-solid fa-envelope"></a>
+                </div>
+                <div class="btn-home">
+                    <button onclick="oncontact()">Contact me</button>
+                    <a href="img/cv.png" download="cvkn.png">Dowload CV</a>
+                </div>
+            </div>
+            <div class="home-main-right">
+                <img src="img/image.png" id="img-canhan" alt="">
+                <div></div>
+            </div>
+        </div>
+    </section>
+    <section class="container portfolio" id="Portfolio">
+        <div class="pfl1 pfl">
+            <img src="img/img-canhan.jpg" width="180px" alt="">
+        </div>
+        <div class="pfl2 pfl">
+            <div class="pfl2-content">
+                <h1>Nguyễn Đình Khánh Nguyên</h1>
+                <h2>Kỹ thuật phần mền K47B</h2>
+                <p>&#9201; 14/11/2005</p>
+                <p>&#9742; 0332961625</p>
+                <p>&#9993; 23t1080051@husc.edu.vn</p>
+                <p>&#9873; Hương Toàn, Hương Trà, Huế</p>
+            </div>
+        </div>
+        <div class="pfl3 pfl">
+            <div class="pfl3-skill">
+                <h1>Kỹ năng</h1>
+                <hr color="black">
+                <p>&#10084; Kỹ năng giao tiếp</p>
+                <p>&#10084; Kỹ năng thuyết trình</p>
+                <p>&#10084; Khả năng thích ứng môi trường</p>
+                <p>&#10084; Lập kế hoạch</p>
+                <p>&#10084; Giải quyết vấn đề</p>
+            </div>
+        </div>
+        <div class="pfl4 pfl">
+            <div class="pfl4-about">
+                <h1>Lịch sử bản thân</h1>
+                <hr color="black">
+                <p><b>Từ năm 2009 -2014:</b>  Học sinh trường tiểu học Hương Toàn</p>
+                <p><b>Từ năm 2014 -2019:</b> Học sinh trường trung học cơ sở Nguyễn Xuân Thưởng</p>
+                <p><b>Từ năm 2019 -2022:</b> Học sinh trung học phổ thông Đặng Huy Trứ</p>
+                <p id="set"><b>Từ 09/2022:</b> Sinh viên Khoá 47, Nghành công nghệ thông tin, trường Đại học Khoa học Huế</p>
+            </div>
+            
+        </div>
+        <div class="pfl5 pfl">
+            <div class="pfl5-like">
+                <h1>Sở thích</h1>
+                <hr color="black">
+                <p>&#10084; Chơi đùa với code</p>
+                <p>&#10084; Nghe nhạc giao hưởng thính phòng</p>
+                <p>&#10084; Cầu lông</p>
+                <p>&#10084; Du lịch khám phá</p>
+            </div>
+        </div>
+        <div class="pfl6 pfl">
+            <h1>Kết quả học tập</h1>
+                <hr color="black">
+                <table border="1px">
+                    <tr id="one">
+                        <th>Học phần</th>
+                        <th>Số tín chỉ</th>
+                        <th>Điểm hệ 10</th>
+                        <th>Điểm hệ 4</th>
+                        <th>Điểm chữ</th>
+                    </tr>
+                    <tr>
+                        <th align="left" colspan="5">Học kì 2 năm học 2024</th>
+                    </tr>
+                    <tr>
+                        <td align="left">Kỹ năng mền</td>
+                        <td>3</td>
+                        <td>null</td>
+                        <td>null</td>
+                        <td>null</td>
+                    </tr>
+                    <tr>
+                        <td align="left">Kỹ thuật lập trình</td>
+                        <td>3</td>
+                        <td>9.9</td>
+                        <td>A</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td align="left">Ngôn ngữ truy vấn có cấu trúc (SQL)</td>
+                        <td>2</td>
+                        <td>null</td>
+                        <td>null</td>
+                        <td>null</td>
+                    </tr>
+                    <tr>
+                        <td align="left">Lập trình nâng cao</td>
+                        <td>3</td>
+                        <td>10</td>
+                        <td>A</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td align="left">Lập trình Front-End</td>
+                        <td>2</td>
+                        <td>null</td>
+                        <td>null</td>
+                        <td>null</td>
+                    </tr>
+                    <tr>
+                        <td align="left">Đại số tuyến tính</td>
+                        <td>3</td>
+                        <td>7.8</td>
+                        <td>B</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+        </div>
+    </section>
+    <section class="container skill" id="skill">
+        <header>
+            <h1>Khanh Nguyen coder skill lỏ</h1>
+            <p>Các kỹ năng được rèn luyện và phát triển qua thời gian</p>
+        </header>
+        <div class="sk-home">
+            <div class="sk-home-skill">
+              <h2>HTML5</h2>
+              <p> HTML5 là một bước tiến lớn trong công nghệ web, cho phép xây dựng các ứng dụng web hiện đại, tương thích thiết bị và có trải nghiệm người dùng tốt hơn.</p>
+            </div>
+            <div class="sk-home-skill">
+              <h2>CSS3</h2>
+              <p>CSS3 cho phép các nhà thiết kế web xây dựng các giao diện người dùng phức tạp và đẹp mắt hơn.</p>
+            </div>
+            <div class="sk-home-skill">
+              <h2>JavaScript</h2>
+              <p>JS trở thành một ngôn ngữ lập trình quan trọng và phổ biến trong phát triển web hiện đại.</p>
+            </div>
+            <div class="sk-home-skill">
+              <h2>C/C++</h2>
+              <p>C++ trở thành một trong những ngôn ngữ lập trình phổ biến và được sử dụng rộng rãi, đặc biệt trong các ứng dụng yêu cầu hiệu suất và kiểm soát bộ nhớ cao.</p>
+            </div>
+            <div class="sk-home-skill">
+              <h2>Python3</h2>
+              <p>Python 3 là một ngôn ngữ lập trình phổ biến, được sử dụng rộng rãi trong các lĩnh vực như data science, machine learning, web development và trí tuệ nhân tạo.</p>
+            </div>
+            <div class="sk-home-skill">
+                <h2>Office</h2>
+              <p>Office cung cấp một bộ công cụ năng suất và đa năng, hỗ trợ người dùng trong nhiều tác vụ văn phòng khác nhau.</p>
+            </div>
+            <div class="sk-home-skill">
+              <h2>Adobe Premiere Pro</h2>
+              <p>Premiere Pro là một công cụ chỉnh sửa để có thể sản xuất các sản phẩm video chuyên nghiệp.</p>
+            </div>
+            <div class="sk-home-skill">
+                <h2>Adobe Photoshop</h2>
+                <p>Adobe Photoshop là phần mền chỉnh sửa ảnh chuyên nghiệp và phổ biến nhất hiện nay.</p>
+            </div>
+            <div class="sk-home-skill">
+                <h2>CapCut PC</h2>
+                <p>Catcut PC là phần mền chỉnh sửa video sử dụng đơn giản được phát triển từ capcut.</p>
+              </div>
+          </div>
+    </section>
+    <section class="container about" id="about">
+        <div class="ab-main">
+            <h1>Đang phát triển vui lòng bỏ qua</h1>
+        </div>
+    </section>
+    <section class="container contact" id="Contact">
+        <div class="ct-main">
+            <h1><span class="cls2" ></span></h1>
+            <div class="ct-lh">
+                <p>My Email: ndkn1@gmail.com</p>
+                <p>My Phone: 0332961625</p>
+                <p>My Address: Hương Toàn, Hương Trà, Thừa Thiên Huế</p>
+            </div>
+            <form class="ct-Form" onsubmit="reset();">
+                <input type="text" name="name" id="kn-name" placeholder="Name">
+                <input type="email" name="email" id="kn-email" placeholder="Email">
+                <textarea name="message" id="kn-message" placeholder="Create a message here"></textarea>
+                <button>Send messeger</button>
+            </form>
+            <div class="ct-social-media">
+                <h3>Follow me here</h3>
+                <div>
+                    <a href="https://www.facebook.com/knguyen1411b/">Facebook</a>
+                    <a href="https://www.instagram.com/knguyen1411b/">Instagram</a>
+                    <a href="https://www.youtube.com/channel/UCPgZkTNud0JIs8UiW3Pwz2Q">Youtube</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <i id="ontop" class="fa-solid fa-arrow-up"></i>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+
+</html>
