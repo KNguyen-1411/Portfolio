@@ -267,7 +267,7 @@
 
 
 /* dành cho điện thoại */
-@media (max-width: 865px) {
+@media (max-width: 767px) {
   .home-main-left .ten-home{
     display: flex;
     flex-direction: column;

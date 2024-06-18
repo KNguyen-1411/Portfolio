@@ -34,9 +34,9 @@ const btn_sk_skill = document.getElementById('btn-skill');
 btn_sk_skill.addEventListener('click', () => {
   scroll("#skill",1200);
 });
-const btn_sk_about = document.getElementById('btn-about');
-btn_sk_about.addEventListener('click', () => {
-  scroll("#about",1300);
+const btn_sk_project = document.getElementById('btn-project');
+btn_sk_project.addEventListener('click', () => {
+  scroll("#project",1300);
 });
 const btn_sk_Contact = document.getElementById('btn-Contact');
 btn_sk_Contact.addEventListener('click', () => {
