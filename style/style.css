@@ -125,7 +125,12 @@
   width: 300px;
 }
 .pfl2,.pfl4,.pfl6{
-  width: auto;
+  width: 550px;
+}
+.pfl1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pfl1 img{
   width: 180px;
@@ -133,7 +138,6 @@
   object-fit: cover;
   border-radius: 30px;
   border: 5px rgb(120, 119, 119) solid;
-  margin:auto auto auto 50px;
 }
 .pfl2 h1{
   text-transform: uppercase;
@@ -143,9 +147,6 @@
 }
 .pfl p{
   margin-bottom: 5px;
-}
-.pfl4-about{
-  width: 80%;
 }
 
 
@@ -293,10 +294,13 @@
   .home-nav .menu .icon-menu{
     display: block;
   }
-  .portfolio,.pfl2>div{
+  .portfolio,.pfl2-content{
     display: flex;
     align-items: center;
     flex-direction: column;
+  }
+  .pfl{
+    width: 300px;
   }
   .ct-lh{
     flex-direction: column;
