@@ -402,8 +402,3 @@ td,th{
   top: 0px;
   left: 120px;
 }
-
-
-.as{
-  animation: 1s forwards ease zoomIn;
-}
