@@ -139,7 +139,7 @@
   height: 180px;
   object-fit: cover;
   border-radius: 30px;
-  border: 5px rgb(120, 119, 119) solid;
+  border: 5px #00cef3 solid;
 }
 .pfl2 h1{
   text-transform: uppercase;
